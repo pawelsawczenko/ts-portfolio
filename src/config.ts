@@ -9,7 +9,7 @@ import Pavel_Savchenko_CV from "./assets/Pavel_Savchenko_CV.pdf";
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: "https://ps-portfolio.netlify.app/",
+  homepage: "https://pavel-savchenko-portfolio.netlify.app/",
   title: "PS.",
 };
 
