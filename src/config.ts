@@ -5,6 +5,8 @@ import simple_app from "./assets/simple_app.jpg";
 import bankist_app from "./assets/bankist_app.jpg";
 import bankist_landing from "./assets/bankist_landing.jpg";
 import belkras from "./assets/belkras.jpg";
+import worldwise_app from "./assets/worldwise_app.jpg";
+
 import Pavel_Savchenko_CV from "./assets/Pavel_Savchenko_CV.pdf";
 
 const header = {
@@ -16,7 +18,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Pavel Savchenko",
-  role: "Front-End Developer",
+  role: "JavaScript/TypeScript Developer",
   description:
     "I'm much better at front-end developing than at writing descriptions. Here some of the projects I completed.",
   resume: Pavel_Savchenko_CV,
@@ -30,10 +32,19 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: "WorldWise",
+    img: worldwise_app,
+    description:
+      "A digital travel diary web app that allows users to keep track of their travel destinations.",
+    stack: ["React", "Context API", "React Router", "CSS"],
+    sourceCode: "https://github.com/pawelsawczenko/worldwise",
+    livePreview: "https://worldwise-ps.netlify.app/",
+  },
+  {
     name: "Gwent-based Card Game",
     img: gwent_based_app,
     description:
-      "The course project that I built during the Evolution TypeScript Bootcamp",
+      "The course project that I built during the Evolution TypeScript Bootcamp. Inspired by the Gwent mini-game from The Witcher 3.",
     stack: ["React", "TypeScript", "MobX", "CSS"],
     sourceCode:
       "https://github.com/pawelsawczenko/evolution-ts-bootcamp-2023-the-course-project",
@@ -43,7 +54,7 @@ const projects = [
     name: "forkify",
     img: forkify_app,
     description:
-      "A recipe finder app that I built while completing the Udemy JavaScript course. It uses forkify API and local storage",
+      "A recipe finder web app that allows users to search over one million recipes. It is built using the MVC design pattern",
     stack: ["JavaScript", "SCSS", "HTML"],
     sourceCode: "https://github.com/pawelsawczenko/forkify",
     livePreview: "https://forkify-app-ps.netlify.app/",
