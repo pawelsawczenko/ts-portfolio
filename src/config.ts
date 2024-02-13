@@ -35,7 +35,7 @@ const projects = [
     name: "WorldWise",
     img: worldwise_app,
     description:
-      "A digital travel diary web app that allows users to keep track of their travel destinations.",
+      "A digital travel diary web app that allows users to keep track of their travel destinations",
     stack: ["React", "Context API", "React Router", "CSS"],
     sourceCode: "https://github.com/pawelsawczenko/worldwise",
     livePreview: "https://worldwise-ps.netlify.app/",
@@ -44,7 +44,7 @@ const projects = [
     name: "Gwent-based Card Game",
     img: gwent_based_app,
     description:
-      "The course project that I built during the Evolution TypeScript Bootcamp. Inspired by the Gwent mini-game from The Witcher 3.",
+      "The course project that I built during the Evolution TypeScript Bootcamp. Inspired by the Gwent mini-game from The Witcher 3",
     stack: ["React", "TypeScript", "MobX", "CSS"],
     sourceCode:
       "https://github.com/pawelsawczenko/evolution-ts-bootcamp-2023-the-course-project",
