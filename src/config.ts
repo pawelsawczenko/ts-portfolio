@@ -72,7 +72,7 @@ const projects = [
     name: "Landing Page for Simple",
     img: simple_app,
     description:
-      "The landing page for Simple Fasting App that I built while working as freelancer",
+      "The landing page for Simple Fasting App that I built while working as a freelancer",
     stack: ["JavaScript", "CSS", "HTML"],
     sourceCode: "https://github.com/pawelsawczenko/Simple",
     livePreview: "https://pawelsawczenko.github.io/Simple/",
@@ -99,7 +99,7 @@ const projects = [
     name: "Website for Belkras",
     img: belkras,
     description:
-      "The website for Belkras that I built while working as freelancer",
+      "The website for Belkras that I built while working as a freelancer",
     stack: ["JavaScript", "CSS", "HTML", "PHP"],
     sourceCode: "https://github.com",
     livePreview: "http://www.belkras.by/",
