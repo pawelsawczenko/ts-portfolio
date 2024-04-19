@@ -6,6 +6,8 @@ import bankist_app from "./assets/bankist_app.jpg";
 import bankist_landing from "./assets/bankist_landing.jpg";
 import belkras from "./assets/belkras.jpg";
 import worldwise_app from "./assets/worldwise_app.jpg";
+import the_wild_oasis_app from "./assets/the_wild_oasis_app.jpg";
+import fast_react_pizza_app from "./assets/fast_react_pizza_app.jpg";
 
 import Pavel_Savchenko_CV from "./assets/Pavel_Savchenko_CV.pdf";
 
@@ -31,6 +33,23 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: "The Wild Oasis",
+    img: the_wild_oasis_app,
+    description:
+      "Hotel's internal application for keeping track of bookings, cabins & etc.",
+    stack: ["React", "React Router", "CSS"],
+    sourceCode: "https://github.com/pawelsawczenko/the-wild-oasis",
+    livePreview: "https://the-wild-oasis-ps.netlify.app/",
+  },
+  {
+    name: "Fast React Pizza",
+    img: fast_react_pizza_app,
+    description: "A pizza ordering app for a small business",
+    stack: ["React", "React Router", "CSS"],
+    sourceCode: "https://github.com/pawelsawczenko/fast-react-pizza",
+    livePreview: "https://fast-react-pizza-ps.netlify.app/",
+  },
   {
     name: "WorldWise",
     img: worldwise_app,
