@@ -38,7 +38,7 @@ const projects = [
     img: the_wild_oasis_app,
     description:
       "Hotel's internal application for keeping track of bookings, cabins & etc.",
-    stack: ["React", "React Router", "CSS"],
+    stack: ["React", "React Router", "React Query", "styled-components"],
     sourceCode: "https://github.com/pawelsawczenko/the-wild-oasis",
     livePreview: "https://the-wild-oasis-ps.netlify.app/",
   },
@@ -46,7 +46,7 @@ const projects = [
     name: "Fast React Pizza",
     img: fast_react_pizza_app,
     description: "A pizza ordering app for a small business",
-    stack: ["React", "React Router", "CSS"],
+    stack: ["React", "React Router", "Redux", "Tailwind CSS"],
     sourceCode: "https://github.com/pawelsawczenko/fast-react-pizza",
     livePreview: "https://fast-react-pizza-ps.netlify.app/",
   },
@@ -55,7 +55,7 @@ const projects = [
     img: worldwise_app,
     description:
       "A digital travel diary web app that allows users to keep track of their travel destinations",
-    stack: ["React", "Context API", "React Router", "CSS"],
+    stack: ["React", "Context API", "React Router", "Leaflet", "CSS"],
     sourceCode: "https://github.com/pawelsawczenko/worldwise",
     livePreview: "https://worldwise-ps.netlify.app/",
   },
