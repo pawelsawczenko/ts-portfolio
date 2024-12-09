@@ -1,16 +1,3 @@
-import gwent_based_app from "./assets/gwent_based_app.jpg";
-import forkify_app from "./assets/forkify_app.jpg";
-import mapty_app from "./assets/mapty_app.jpg";
-import simple_app from "./assets/simple_app.jpg";
-import bankist_app from "./assets/bankist_app.jpg";
-import bankist_landing from "./assets/bankist_landing.jpg";
-import belkras from "./assets/belkras.jpg";
-import worldwise_app from "./assets/worldwise_app.jpg";
-import the_wild_oasis_app from "./assets/the_wild_oasis_app.jpg";
-import fast_react_pizza_app from "./assets/fast_react_pizza_app.jpg";
-
-import Pavel_Savchenko_CV from "./assets/Pavel_Savchenko_CV.pdf";
-
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: "https://pavel-savchenko-portfolio.netlify.app/",
@@ -23,7 +10,7 @@ const about = {
   role: "JavaScript/TypeScript Developer",
   description:
     "I'm much better at front-end developing than at writing descriptions. Here some of the projects I completed.",
-  resume: Pavel_Savchenko_CV,
+  resume: "Pavel_Savchenko_CV.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/pawelsawczenko/",
     github: "https://github.com/pawelsawczenko",
@@ -34,17 +21,42 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: "The Wild Oasis",
-    img: the_wild_oasis_app,
+    name: "The Wild Oasis Website",
+    img: "/img/the_wild_oasis_website.jpg",
     description:
-      "Hotel's internal application for keeping track of bookings, cabins & etc.",
-    stack: ["React", "React Router", "React Query", "styled-components"],
+      "Website that helps clients of the hotel to make and keep track of their bookings.",
+    stack: ["TypeScript", "Next.js", "styled-components", "Supabase"],
+    sourceCode: "https://github.com/pawelsawczenko/the-wild-oasis-website",
+    livePreview: "https://the-wild-oasis-website-demo-ps.vercel.app/",
+  },
+  {
+    name: "The Wild Oasis",
+    img: "/img/the_wild_oasis_app.jpg",
+    description:
+      "Internal application for a hotel used for keeping track of   bookings, cabins & etc.",
+    stack: [
+      "React",
+      "React Router",
+      "React Query",
+      "styled-components",
+      "Supabase",
+    ],
     sourceCode: "https://github.com/pawelsawczenko/the-wild-oasis",
     livePreview: "https://the-wild-oasis-ps.netlify.app/",
   },
   {
+    name: "Gwent-based Card Game",
+    img: "/img/gwent_based_app.jpg",
+    description:
+      "The course project that I built during the Evolution TypeScript Bootcamp. Inspired by the Gwent mini-game from The Witcher 3",
+    stack: ["TypeScript", "React", "React Router", "MobX", "CSS"],
+    sourceCode:
+      "https://github.com/pawelsawczenko/evolution-ts-bootcamp-2023-the-course-project",
+    livePreview: "https://gwent-based-game-bootcamp-2023.netlify.app/",
+  },
+  {
     name: "Fast React Pizza",
-    img: fast_react_pizza_app,
+    img: "/img/fast_react_pizza_app.jpg",
     description: "A pizza ordering app for a small business",
     stack: ["React", "React Router", "Redux", "Tailwind CSS"],
     sourceCode: "https://github.com/pawelsawczenko/fast-react-pizza",
@@ -52,7 +64,7 @@ const projects = [
   },
   {
     name: "WorldWise",
-    img: worldwise_app,
+    img: "/img/worldwise_app.jpg",
     description:
       "A digital travel diary web app that allows users to keep track of their travel destinations",
     stack: ["React", "Context API", "React Router", "Leaflet", "CSS"],
@@ -60,18 +72,8 @@ const projects = [
     livePreview: "https://worldwise-ps.netlify.app/",
   },
   {
-    name: "Gwent-based Card Game",
-    img: gwent_based_app,
-    description:
-      "The course project that I built during the Evolution TypeScript Bootcamp. Inspired by the Gwent mini-game from The Witcher 3",
-    stack: ["React", "TypeScript", "MobX", "CSS"],
-    sourceCode:
-      "https://github.com/pawelsawczenko/evolution-ts-bootcamp-2023-the-course-project",
-    livePreview: "https://gwent-based-game-bootcamp-2023.netlify.app/",
-  },
-  {
     name: "forkify",
-    img: forkify_app,
+    img: "/img/forkify_app.jpg",
     description:
       "A recipe finder web app that allows users to search over one million recipes. It is built using the MVC design pattern",
     stack: ["JavaScript", "SCSS", "HTML"],
@@ -80,7 +82,7 @@ const projects = [
   },
   {
     name: "mapty",
-    img: mapty_app,
+    img: "/img/mapty_app.jpg",
     description:
       "An app I built during the Udemy JavaScript course. It tracks activities using geolocation, local storage and Leaflet",
     stack: ["JavaScript", "CSS", "HTML"],
@@ -89,7 +91,7 @@ const projects = [
   },
   {
     name: "Landing Page for Simple",
-    img: simple_app,
+    img: "/img/simple_app.jpg",
     description:
       "The landing page for Simple Fasting App that I built while working as a freelancer",
     stack: ["JavaScript", "CSS", "HTML"],
@@ -98,7 +100,7 @@ const projects = [
   },
   {
     name: "Bankist App",
-    img: bankist_app,
+    img: "/img/bankist_app.jpg",
     description:
       "A simple banking app that I built while completing the Udemy JavaScript course",
     stack: ["JavaScript", "CSS", "HTML"],
@@ -107,7 +109,7 @@ const projects = [
   },
   {
     name: "Bankist Landing Page",
-    img: bankist_landing,
+    img: "/img/bankist_landing.jpg",
     description:
       "Bankist Landing Page that I built while completing the Udemy JavaScript course",
     stack: ["JavaScript", "CSS", "HTML"],
@@ -116,7 +118,7 @@ const projects = [
   },
   {
     name: "Website for Belkras",
-    img: belkras,
+    img: "/img/belkras.jpg",
     description:
       "The website for Belkras that I built while working as a freelancer",
     stack: ["JavaScript", "CSS", "HTML", "PHP"],
@@ -133,6 +135,7 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Next.js",
   "Redux",
   "MobX",
   "SASS",

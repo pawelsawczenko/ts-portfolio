@@ -22,6 +22,7 @@
   width: 270px;
   opacity: 0.5;
   transition: opacity 0.2s linear;
+  border: 1px solid;
 }
 .project p {
   min-height: 96px;
