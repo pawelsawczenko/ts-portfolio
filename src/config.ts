@@ -25,7 +25,7 @@ const projects = [
     img: "/img/the_wild_oasis_website.jpg",
     description:
       "Website that helps clients of the hotel to make and keep track of their bookings.",
-    stack: ["TypeScript", "Next.js", "styled-components", "Supabase"],
+    stack: ["TypeScript", "Next.js", "Tailwind CSS", "Supabase"],
     sourceCode: "https://github.com/pawelsawczenko/the-wild-oasis-website",
     livePreview: "https://the-wild-oasis-website-demo-ps.vercel.app/",
   },
