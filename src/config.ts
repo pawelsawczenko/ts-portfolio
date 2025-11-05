@@ -6,11 +6,11 @@ const header = {
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: "Pavel Savchenko",
-  role: "JavaScript/TypeScript Developer",
+  name: "Pavel Sauchanka",
+  role: "Front-end Developer",
   description:
-    "I'm much better at front-end developing than at writing descriptions. Here some of the projects I completed.",
-  resume: "Pavel_Savchenko_CV.pdf",
+    "Front-end Developer passionate about crafting seamless user experiences. Experienced in React, Next.js, and TypeScript, with strong skills in turning Figma designs into modular, maintainable interfaces that drive engagement.",
+  resume: "Pavel_Savchenko_CV_en.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/pawelsawczenko/",
     github: "https://github.com/pawelsawczenko",
@@ -130,17 +130,32 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
+  "JavaScript",
   "React",
   "Next.js",
-  "Redux",
+  "Redux, Redux Toolkit",
   "MobX",
-  "SASS",
+  "Zustand",
+  "React Router",
+  "React Query",
+  "React Hook Form",
+  "Zod",
   "Material UI",
+  "Tailwind CSS",
+  "styled-components",
+  "Jest",
+  "React Testing Library",
+  "HTML",
+  "CSS",
+  "Sass/SCSS",
   "Git",
+  "GitHub",
+  "GitLab",
+  "Figma",
+  "Scrum",
+  "Agile Methodologies",
+  "Jira",
 ];
 
 const contact = {

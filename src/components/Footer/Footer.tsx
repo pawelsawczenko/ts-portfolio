@@ -6,7 +6,7 @@ const Footer = () => (
       href="https://github.com/pawelsawczenko/ts-portfolio"
       className="link footer__link"
     >
-      Created By Pavel Savchenko
+      Created By Pavel Sauchanka
     </a>
   </footer>
 );
