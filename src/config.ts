@@ -10,7 +10,7 @@ const about = {
   role: "Front-end Developer",
   description:
     "Front-end Developer passionate about crafting seamless user experiences. Experienced in React, Next.js, and TypeScript, with strong skills in turning Figma designs into modular, maintainable interfaces that drive engagement.",
-  resume: "Pavel_Savchenko_CV_en.pdf",
+  resume: "Pavel_Sauchanka_CV_en.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/pawelsawczenko/",
     github: "https://github.com/pawelsawczenko",
